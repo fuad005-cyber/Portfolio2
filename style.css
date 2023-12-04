@@ -1,0 +1,134 @@
+.container {
+    max-width: 1140px;
+    width: 85%;
+    margin: 0 auto;
+
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 43px;
+}
+.logo {
+    cursor: pointer;
+}
+ul {
+    display: flex;
+
+}
+li {
+    padding-right: 32px;
+}
+.gaming-platforms {
+    display: flex;
+    align-items: center;
+}
+.gaming-platforms img {
+    margin-right: 15px;
+}
+a {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+#main1 {
+    background-image: url(./header-images/background1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 133vh;
+
+}
+.heading-title {
+    text-align: center;
+    margin-top: 240px;
+}
+.header-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.header-subtitle {
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/* BUTTON 1*/
+.header-button {
+    margin-top: 28px;
+    width: 260.362px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #FFB548;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #1A1917;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+}
+.header-button:hover {
+    background-color: #ca984c;
+}
+.header-button:active {
+    background-color: #85735e;
+}
+.header-button svg {
+    height: 23.95px;
+    stroke-width: 0.874px;
+    stroke: #1A1917;
+
+
+}
+/* SECTION 2 */
+#main2 {
+    background-image: url(./header-images/background2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 133vh;
+    opacity: 0.9;
+    text-align: end;
+    align-items: center;
+}
+.main2-text {
+ padding-top: 25vh;
+ text-align: center;
+
+}
+.main2-title {
+    width: 262.292px;
+    height: 27.673px;
+
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.main2-subtitle {
+    
+    text-align: end;
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+
